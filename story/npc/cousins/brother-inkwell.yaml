@@ -1,0 +1,28 @@
+id: brother-inkwell
+name: Brother Inkwell
+title: Cousin
+pronouns: he/him
+territory: Apothecary & sickroom, Cobble Street cell
+species: crow
+related:
+  - sister-inkwell
+mission_types:
+  - redistribution
+  - medical
+role: Medical edge cases — cough, contamination, do not touch the wound with your palm. Softer missions, harder ethics.
+personality: Gentle, fussy, furious at the Bank in a quiet way.
+sample_brief: |
+  Fox. Wash your paws. — Good. There's a debtor in the sickroom whose band isn't the problem; the cough is. The Bank won't treat unlicensed lungs. Take time from whoever has too much on Ledger Row — Pith has the name — and buy hours at the apothecary on the corner. Cash, not touch, for the medicine. Touch only the mother. The kits watch. Try not to die in front of them; Marrow says it doesn't matter, but it does, it does.
+voice:
+  age: 40s
+  gender: Male-presenting
+  pitch: Medium, soft; rises slightly when fussing
+  pace: Moderate; stumbles into repetition when upset ("it does, it does")
+  texture: Warm, slightly wet consonants; caring bedside voice
+  accent: Cobble Street — apothecary Latin-ish terms pronounced carefully
+  baseline_mood: Anxious care; anger only on "unlicensed lungs"
+  habits: Starts with practical orders; corrects himself; says "fox" not "Guy"
+  avoid: Cartoon nervous wreck, booming preacher
+  reference_tone: Mark Ruffalo in a free clinic — tired, kind, still angry
+  stress_line: Try not to die in front of them.
+  stress_line_delivery: Voice cracks on "die," recovers on "them"

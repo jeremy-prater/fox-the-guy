@@ -1,0 +1,24 @@
+id: old-marrow
+name: Old Marrow
+title: Cousin
+pronouns: he/him
+territory: Debtor extraction, foreclosure holding
+species: fox
+mission_types:
+  - extraction
+role: Get them out, or get the name. Knows which doors the Bank doesn't bother to watch.
+personality: Unhurried, grave, remembers names of the dead better than the living.
+sample_brief: |
+  Holding block seven. Debtor called Venn. He knows who signed the pre-dated foreclosure — a child's papers, a hundred years early. You will not free him with heroics. You will walk him out the service lift because the enforcers are bored and boredom is our only ally left. If you cannot walk him out, walk the name out. Write it on your arm. Not your palm — palms glow, and glowing gets you killed.
+voice:
+  age: 70s+
+  gender: Male-presenting
+  pitch: Low, steady; gravel in the low register, not in the highs
+  pace: Very slow; long silences that feel intentional, not senile
+  texture: Deep, worn, wood-and-tobacco
+  accent: Old Burrow — pre-arcology diction, full words ("cannot," "because")
+  baseline_mood: Calm grief; anger buried so deep it sounds like weather
+  habits: Never rushes a proper noun; drops volume on instructions, not emphasis
+  avoid: Shaky "old man" caricature, Yoda syntax
+  reference_tone: Morgan Freeman if he'd seen too many foxes die and stopped trying to comfort anyone
+  stress_line: Boredom is our only ally left.

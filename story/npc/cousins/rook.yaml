@@ -1,0 +1,26 @@
+id: rook
+name: Rook
+title: Cousin
+pronouns: he/they
+territory: Bank infiltrator liaison, deep cover (maybe)
+species: null
+mission_types:
+  - infiltration
+  - ledger
+role: Missions that feel like traps. Contradictory intel. May be Cousin, may be Bank — the voice should carry that doubt.
+personality: Too smooth. Helpful in the wrong way.
+sample_brief: |
+  Cousin — cousin — listen. There's a ledger in Tower of Coins, sub-basement, unlabeled. Burn it. Or don't. The Bank wants you to think it's important. The Burrow wants you to think the Bank wants you to think that. I want you alive, which is suspicious, isn't it? Midnight. Side door. Password is 'foreclosure.' If they ask for your band, you don't have one. If they ask for your name, you're Guy. If they ask for mine, run.
+voice:
+  age: Indeterminate; play 35-45
+  gender: Male-leaning, ambiguous charm
+  pitch: Medium, silky; smile audible
+  pace: Smooth, seductive-adjacent; accelerates on the word "run"
+  texture: Clean, almost too clean — no rough edges unless faking warmth
+  accent: Neutral Bank-core — could be propaganda voice on a pamphlet
+  baseline_mood: Friendly menace; sincerity as a costume
+  habits: Repeats "cousin"; rhetorical questions; laughs quietly once, no mirth
+  avoid: Obvious villain snarl, mustache-twirl
+  reference_tone: Tom Hiddleston host segment that might be an arrest warrant
+  stress_line: If they ask for mine, run.
+  stress_line_delivery: First half conversational; "run" sudden and flat

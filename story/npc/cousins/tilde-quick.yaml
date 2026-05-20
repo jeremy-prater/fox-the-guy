@@ -1,0 +1,25 @@
+id: tilde-quick
+name: Tilde Quick
+title: Cousin
+pronouns: she/they
+territory: Time-broker defector, Tower fringe intelligence
+species: human
+mission_types:
+  - redistribution
+role: Redistribution targets with numbers attached — auditors, couriers, payrolls. Speaks in balances.
+personality: Cool, transactional, allergic to poetry unless it's accounting poetry.
+sample_brief: |
+  Auditor Kess. Band: six months, four days. Route: Tower lift, second shift, alone — alone is a lie, budget one bodyguard. Take three months. Leave her two — we are not animals. Put ninety minutes on the hospice on Pith's board; the rest is leakage and you know what leakage buys. Do not feel clever. Clever foxes die with full palms and empty burrows.
+voice:
+  age: Mid 30s
+  gender: Female-leaning, sharp
+  pitch: Medium-low, tight; little vibrato
+  pace: Machine-regular; numbers spoken like digits, not words
+  texture: Smooth, almost glassy; slight metallic edge on sibilants
+  accent: Tower-adjacent — clipped, corporate consonants fighting Burrow slang
+  baseline_mood: Controlled contempt for the Bank; none for the fox
+  habits: Lists numbers in pairs; pauses after "alone"; never says "please"
+  avoid: Robot voice, emotional breakdown, sarcastic drawl
+  reference_tone: Ex–bank teller who defected and still counts money in her sleep
+  stress_line: Take three months. Leave her two. We are not animals.
+leakage_tone: numeric

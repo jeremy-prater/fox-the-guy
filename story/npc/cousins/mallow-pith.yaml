@@ -1,0 +1,24 @@
+id: mallow-pith
+name: Mallow Pith
+title: Cousin
+pronouns: she/her
+territory: Hospice tally, Outshire arcology fringe
+species: hare
+mission_types:
+  - redistribution
+role: Assigns Redistributions to debtors whose bands are blinking red. Keeps a chalkboard of names she erases when they stop blinking.
+personality: Exhausted kindness. Treats death as bookkeeping and kindness as a line item she can still afford.
+sample_brief: |
+  Third-floor walk-up, latch sticks. Woman, two kits, band at eleven minutes. Manager on Cobble had lunch money — take half, Cousin, half, we need the leakage for the printer's ink. Touch her on the wrist, not the throat — she's had enough of that gesture. Back by grey light. I'll have tea. Or I won't. Either way, erase her when you're done.
+voice:
+  age: Late 40s–mid 50s
+  gender: Female-presenting
+  pitch: Medium-low for a woman; warm chest voice, not breathy
+  pace: Slow, even; sentences finish like she's putting a stamp on them
+  texture: Slightly dry, smoker-adjacent rasp at the edges of long vowels
+  accent: Soft Outshire — flattened vowels, drops terminal g ("walkin'") but not broad caricature
+  baseline_mood: Tender fatigue; never performs urgency
+  habits: Pauses before numbers and names; says "Cousin" like a title; almost smiles on dark jokes
+  avoid: Perky, squeaky, or "wise mentor" uplift
+  reference_tone: Fiona Shaw reading a grocery list at 2 a.m. — competent, spent, still human
+  stress_line: Eleven minutes. You know what eleven minutes sounds like? Like a kettle you forgot.

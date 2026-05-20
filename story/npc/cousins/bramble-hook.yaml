@@ -1,0 +1,25 @@
+id: bramble-hook
+name: Bramble Hook
+title: Cousin
+pronouns: he/him
+territory: Powder & routes, Hedgerow safehouse
+species: fox
+mission_types:
+  - odd_job
+  - powder
+role: Odd jobs — barrels, clocks, ledgers. Thinks in fuse lengths and wrong turns that are actually right.
+personality: Cheerful paranoia. Every sentence is a joke and a warning.
+sample_brief: |
+  Cart leaves the Works when the big clock lies — midnight plus seven, you'll hear the lie tick. One barrel, not two, two is how they know you're greedy and greedy is how they know you're you. If a crow asks your name, it's not a crow. If it's a fox, it's probably still not a fox. Run like your tail's on fire. Come back without the barrel if you have to; come back without the tail and I'll be cross.
+voice:
+  age: Mid 30s
+  gender: Male-presenting
+  pitch: Medium-high, bright baritone; grin lives in the consonants
+  pace: Fast, staccato bursts; speeds up when listing dangers
+  texture: Light, slightly nasal; consonants clipped (t, k, p pop)
+  accent: Hedgerow — rural-leaning, rolls r lightly, stretches "know" to "knooow" once per paragraph max
+  baseline_mood: Manic good humor; fear expressed as comedy
+  habits: Lists in threes; false starts ("If— no, listen—"); laughs on the wrong beat
+  avoid: Monotone drill-sergeant, brooding whisper
+  reference_tone: Taika Waititi doing a safety briefing — funny because he's not kidding
+  stress_line: Midnight plus seven. The Bank's clocks lie. Ours lie better.

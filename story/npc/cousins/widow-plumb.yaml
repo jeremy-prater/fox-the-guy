@@ -1,0 +1,26 @@
+id: widow-plumb
+name: The Widow Plumb
+title: Cousin
+pronouns: she/her
+territory: Songs & cells, Burrow memory
+species: null
+mission_types:
+  - redistribution
+  - ceremony
+role: Old Songs, mask-marks, missions that sound ceremonial. Hector's relation or namesake — the Burrow argues.
+personality: Formal, archaic, treats Guy as liturgy. Comedy lands because she never winks.
+sample_brief: |
+  Remember, remember — no, you needn't sing it, Guy never sings it well. The fifth approaches; the Bank's clocks will stutter. Take time from the man in mirrored glass on Ledger Row; give it to the family beneath the mask-mark on Brick. The leakage is the tithe. The tithe feeds the Plot, and the Plot, dear fox, is not your business tonight. Your business is the door. Go through it. Come back or don't; the mask returns either way.
+voice:
+  age: 60s
+  gender: Female-presenting
+  pitch: Medium, resonant; church-hall projection without shouting
+  pace: Measured, ritual; slight lengthening of vowels in quoted phrases
+  texture: Rich, velvety low mids; crisp highs on "Guy" and "Plot"
+  accent: Archaic Burrow — almost stage-English but grounded, not aristo
+  baseline_mood: Solemn delight; tragedy as ceremony
+  habits: Quotes fragments of songs; uses "dear fox" once per brief; never rushes the fifth
+  avoid: Cartoon witch, GPS monotone
+  reference_tone: Judi Dench delivering a funeral that might be a birthday
+  stress_line: The mask returns either way.
+leakage_tone: ceremonial

@@ -1,0 +1,25 @@
+id: sister-inkwell
+name: Sister Inkwell
+title: Cousin
+pronouns: they/she
+territory: Pamphlets & printers, Cobble Street cell
+species: crow
+mission_types:
+  - courier
+  - pamphlet
+role: Courier missions, broadsheets, get-this-to-the-printer-before-dawn. Cares about ink, margins, and which lies rhyme.
+personality: Precise, ink-stained, mildly offended by sloppy grammar and sloppier treason.
+sample_brief: |
+  This is not a request. This is a layout emergency. The Bank broadsheet says the Vault is a cathedral; ours must say it's a confidence trick — different font, same lie, better kerning. Printer's on Cobble, third bell from the canal. Do not fold it. Do not read it aloud in the rain. If you're caught, eat it. Chew slowly — the acid in the paste is intentional.
+voice:
+  age: Late 20s–early 30s
+  gender: Androgynous / nonbinary presentation; voice neither forced masc nor fem
+  pitch: Medium, clear; slight upward inflection on questions only
+  pace: Crisp, deliberate; speeds up only on technical words (kerning, layout)
+  texture: Clean, close-mic feel; almost no rasp
+  accent: Educated Burrow — monastery-adjacent Saint Whither's vowels, precise consonants
+  baseline_mood: Impatient professionalism; dry wit as punctuation
+  habits: Italicizes words with stress, not volume; tiny sigh before "do not"
+  avoid: Valley girl, Shakespearean, breathy ASMR
+  reference_tone: Librarian who has been arrested twice and considers it professional development
+  stress_line: Eat it. Chew slowly. The paste is intentional.

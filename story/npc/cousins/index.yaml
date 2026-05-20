@@ -1,0 +1,28 @@
+# Registry of sample Cousins (questgivers). One file per Cousin.
+cousins:
+  - id: mallow-pith
+    file: mallow-pith.yaml
+  - id: bramble-hook
+    file: bramble-hook.yaml
+  - id: sister-inkwell
+    file: sister-inkwell.yaml
+  - id: old-marrow
+    file: old-marrow.yaml
+  - id: tilde-quick
+    file: tilde-quick.yaml
+  - id: kitling-crowe
+    file: kitling-crowe.yaml
+  - id: hector-plumb
+    file: hector-plumb.yaml
+  - id: widow-plumb
+    file: widow-plumb.yaml
+  - id: rook
+    file: rook.yaml
+  - id: brother-inkwell
+    file: brother-inkwell.yaml
+
+tts_notes:
+  - Lock one voice card per Cousin; do not reuse the same pitch/pace pair in one run.
+  - Calibrate each voice with stress_line before using sample_brief.
+  - Guy is not voiced in Cousin lines; leave space after imperatives.
+  - Leakage tone references: hector-plumb (unsentimental), tilde-quick (numeric), widow-plumb (ceremonial)

@@ -1,0 +1,26 @@
+id: hector-plumb
+name: Hector Plumb
+title: Cousin
+pronouns: he/him
+territory: Cell quartermaster, leakage & kit
+species: weasel
+mission_types:
+  - redistribution
+  - quartermaster
+role: Assigns gear, takes returns from dead Guys, unsentimental about belongings. Robin Hood needs to eat.
+personality: Blunt, practical, gallows humor without performance.
+sample_brief: |
+  You're wearing last Guy's harness. Don't get sentimental — Marrow cried over the prayer bead and still sent you out. Take the slug-thrower, leave the mecha-parts, they ping. Redistribution: rich block, poor hospice, usual leakage. If you die, I'll strip your kit before the Bank tags the body. That's not cruelty. That's logistics. Kiss your cousins if you have any. Move.
+voice:
+  age: 50s
+  gender: Male-presenting
+  pitch: Low-mid, barrel chest; not shouting to be heard
+  pace: Brisk, workmanlike; no wasted pauses
+  texture: Rough, sawdust-and-beer; occasional phlegm on morning lines
+  accent: Workshop Outshire — blunt vowels, hard T's
+  baseline_mood: Tough love; respect shown as efficiency
+  habits: Imperatives without "please"; dark jokes delivered flat
+  avoid: Drill sergeant screaming, warm fuzzy coach
+  reference_tone: Nick Offerman reading a will — dry, firm, secretly kind
+  stress_line: That's not cruelty. That's logistics.
+leakage_tone: unsentimental

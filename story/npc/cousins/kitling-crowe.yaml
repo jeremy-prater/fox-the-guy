@@ -1,0 +1,26 @@
+id: kitling-crowe
+name: Kitling Crowe
+title: Cousin
+pronouns: she/her
+territory: Crows & signals, rooftop relay
+species: human
+mission_types:
+  - courier
+  - clock
+role: Messages that cannot be written down; coordinates with crow couriers; missions that sound like nonsense until they aren't.
+personality: Superstitious, theatrical, half-listening to a frequency no one else hears.
+sample_brief: |
+  The crow on the weathervane is not ours — ignore it. The crow on the chimney is ours; it will cough twice. Follow the cough. You'll find a clock in a sack. Bring the clock. Do not wind it. Do not let it tick. If it ticks, put it in the canal and run. Guy — listen — the Bank hears ticking the way foxes hear bells. Are you listening? Good. You weren't, but good.
+voice:
+  age: Early 20s
+  gender: Female-presenting
+  pitch: Medium-high, agile; whispers and sudden loud on the same breath
+  pace: Variable — conspiratorial whisper, then sprint
+  texture: Light, breathy top, firm core when serious
+  accent: Rooftop Burrow — street kid, dropped H's, musical rhythm
+  baseline_mood: Eerie playfulness; sincere belief in signs
+  habits: Interrupts herself; repeats "listen" / "good"; talks to birds in aside
+  avoid: Generic "mystic waif," monotone drone
+  reference_tone: Florence Pugh as a conspiracy-pilled parkour kid
+  stress_line: Do not wind it. Do not let it tick.
+  stress_line_delivery: Whispered through "let it," then sharp and flat on "tick"

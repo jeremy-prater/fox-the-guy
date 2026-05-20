@@ -10,12 +10,13 @@
 
 This document is the **worldbuilding sourcebook** for *Fox the Guy*. It is not a plot. It is the **shape of a world** in which many small, doomed, often funny stories can happen. Each run is one such story.
 
-We are working from four creative touchstones:
+We are working from five creative touchstones:
 
 1. **Robin VanGilder's [*Towards a Better Roguelike: How to Tell a Story*](https://beigemoth.blog/2019/04/11/towards-a-better-roguelike-the-problem-of-plot/)** — build the world, not the plot. The protagonist is generic by design. The big story happens off-stage.
 2. **Deltron 3030** (Del the Funky Homosapien, Dan the Automator, Kid Koala, 2000) — the album that gave us the **Corporate Institutional Bank of Time**, the figure of the lone rhyme-fighter against a galaxy-spanning corporate dystopia, and the tone: irreverent, funky, defiant, weird, mythic. Not grimdark. Not chosen-one heroic. A swagger against an absurd machine.
 3. **Rocket Raccoon (MCU *Guardians of the Galaxy*) and Fox McCloud (*Star Fox 64*)** — the visual lineage for the protagonist. A small, sharp-eyed, anthropomorphic fox bristling with tactical gear too big for him. Rocket provides the silhouette detail (scavenged, mismatched, snarky, *underestimate-me-at-your-peril*); Starfox provides the silhouette shape (pilot/operator harness, mission patches, callsigns, a sense of being part of a squad of equals).
 4. **In Time** (Andrew Niccol, 2011) — the film that puts time-as-currency on people's arms as a glowing countdown, and frames the protagonist as a Robin Hood who steals time from the rich and gives it to the dying poor. We are taking from it (a) the visible mortality clock every citizen wears, (b) the stratified time-zones of the world separated by time-toll checkpoints, and (c) the **Robin Hood structure of the player's night-to-night gameplay**: rob the wealthy, redistribute to the Outshire, do it again before dawn. The Big Plot stays Guy Fawkes; the small plot is Robin Hood.
+5. **The Matrix** (Wachowskis, 1999) — not for the simulation, but for **vertical geography**: Zion in the caverns beneath the Machine City; the last free humans raid upward into a world that thinks it owns the sky. The **Burrow** under the **arcologies** is the same shape — down is home, up is the heist, back down before the machines notice.
 
 Two principles in particular from the article:
 
@@ -32,11 +33,17 @@ There is one Corporation. It used to have competitors. It does not anymore. Its 
 
 The Bank does not lend money. Money is a thing of the past — or rather, a thing of the Bank's marketing department. The Bank lends **time**: hours, weeks, years of human life, drawn from a vast **Vault** no one is allowed to see. You take out a loan of time when you need to live longer than you can afford. You pay it back in labor, in service, in years deducted from the end of your life. Most citizens are born already in debt: their parents borrowed to feed them.
 
-When a debtor cannot pay, they are **Called In**. The Bank's enforcers come. The debtor is taken to the Vault. They are not seen again. Their remaining hours are repackaged and sold to clients who can afford to live forever, or close enough.
+When a debtor cannot pay, their **ledger band** enters the warning state first: the display blinks red, and the cuff emits a sharp, repeating tone — loud enough to carry down a block, impossible to sleep through. The Bank's network hears it too. **Enforcers are dispatched.** So is every fox in earshot who knows what the sound means.
+
+If no one intervenes, the balance hits zero and the debtor is **Called In**. They do not drop dead on the pavement — not yet. They are conscious, marked, often on their knees, band still screaming red while the enforcers close in. The debtor is taken to the Vault. They are not seen again. Whatever hours were left on the band are repackaged and sold to clients who can afford to live forever, or close enough.
+
+**Guy's most common save** happens in that window: kill the enforcer, touch the debtor, run. The Bank's pamphlets insist that running out of time means instant death. The Burrow knows better.
 
 The Bank presents this as a market. The Burrow calls it what it is.
 
-Beneath the arcologies — literally — runs the **Burrow**. The Burrow is the secret nation of the small and the foreclosed: foxes, hares, weasels who turned coat, crows who carry letters they cannot read, debtors who slipped the leash, hackers who burned their own ledgers. The Burrow has no CEO. It has Cells. It has Cousins. It has the Old Songs. It has, most importantly, a name on every tongue.
+Beneath the arcologies — literally — runs the **Burrow**. The arcologies are the Bank's machine-city: mirrored towers, checkpoints, licensed light, enforcers in the upper levels. The Burrow is what lives underneath — warrens, Cells, Cousins, the Old Songs, the smell of wet fur and black powder. Foxes **go up** to steal time and make trouble; they **go down** to survive the night. The vertical map is the game's map: the Hedgerow and the Outshire at the edges, the arcology rising in rings of wealth, the Burrow always below, always there when you need to vanish.
+
+The Burrow is the secret nation of the small and the foreclosed: foxes, hares, weasels who turned coat, crows who carry letters they cannot read, debtors who slipped the leash, hackers who burned their own ledgers. The Burrow has no CEO. It has Cells. It has Cousins. It has, most importantly, a name on every tongue. The Bank knows the Burrow exists. The Bank has never successfully foreclosed on it.
 
 That name is **Guy**.
 
@@ -59,7 +66,9 @@ The Hedgerow is where most runs begin.
 
 ### How Time Works in Practice
 
-Every Bank-licensed citizen wears a **ledger band** at the wrist — a thin glass-and-metal cuff that displays their remaining balance in glowing characters. The band is tied to the Vault by something the Bank's engineers call a *trust link* and the Burrow's mechanics call *obvious bullshit, here's how to spoof it.* When your band reads zero, you stop. Right there. Wherever you are.
+Every Bank-licensed citizen wears a **ledger band** at the wrist — a thin glass-and-metal cuff that displays their remaining balance in glowing characters. The band is tied to the Vault by something the Bank's engineers call a *trust link* and the Burrow's mechanics call *obvious bullshit, here's how to spoof it.*
+
+When the balance falls into the danger range, the band **blinks red and beeps** — the same signal that summons enforcers and, if anyone in the Burrow is listening, Guy. That is the rescue window. If it closes without intervention, the display locks at zero, the debtor is **Called In**, and the enforcers finish the job. Death in the street is a myth the Bank likes; the Vault is where people actually disappear.
 
 Bands transfer hand-to-hand by a brief skin contact: a handshake, a touch, a grip on the throat. The gesture is the same whether the transfer is commerce, charity, or robbery — which is approximately how the Bank prefers it to remain.
 
