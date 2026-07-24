@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 700" role="img" aria-labelledby="title desc">
+  <title id="title">City rings plan - seam Hedgerow and Burrow entry</title>
+  <desc id="desc">Arcology rings with Outshire crescent, thin Hedgerow on the seam, and Burrow strip extending to that seam as entry.</desc>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #1a1c1a; }
+      .unmapped { fill: #151714; stroke: #2a2e28; stroke-width: 1; stroke-dasharray: 4 4; }
+      .hedge { fill: #2a3328; stroke: #5a6b52; stroke-width: 2; }
+      .outshire { fill: #3d3428; stroke: #a8894a; stroke-width: 2; }
+      .outer { fill: #2c3238; stroke: #7a8894; stroke-width: 1.5; }
+      .mid { fill: #323840; stroke: #8a96a0; stroke-width: 1.5; }
+      .inner { fill: #3a4048; stroke: #9aa4ac; stroke-width: 1.5; }
+      .core { fill: #4a5058; stroke: #c4b48a; stroke-width: 2; }
+      .burrow { fill: #c4a060; fill-opacity: 0.55; stroke: #e0c070; stroke-width: 1.5; }
+      .axis { stroke: #c4b48a; stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.7; }
+      .callout { fill: none; stroke: #d8c89a; stroke-width: 1; }
+      .label { fill: #e8e0d0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 11px; }
+      .label-sm { fill: #b8b0a0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 9px; }
+      .title { fill: #e8e0d0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 14px; font-weight: 600; }
+      .dim { fill: #d8c89a; font-family: "IBM Plex Mono", "Consolas", monospace; font-size: 10px; }
+      .burrow-label { fill: #e0c070; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 10px; }
+      .mute { fill: #6a7068; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 9px; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" width="720" height="700"/>
+  <circle class="unmapped" cx="360" cy="320" r="211"/>
+
+  <circle class="outer" cx="360" cy="320" r="156"/>
+  <circle class="mid" cx="360" cy="320" r="86"/>
+  <circle class="inner" cx="360" cy="320" r="39"/>
+  <circle class="core" cx="360" cy="320" r="12"/>
+
+  <!-- Outshire 120 deg, 10-12.5 km -->
+  <path class="outshire"
+        d="M 495.1 398
+           A 156 156 0 0 1 224.9 398
+           L 191.1 417.5
+           A 195 195 0 0 0 528.9 417.5
+           Z"/>
+
+  <!-- Hedgerow 60 deg, 12.5-13.5 km (seam) -->
+  <path class="hedge"
+        d="M 457.5 488.9
+           A 195 195 0 0 1 262.5 488.9
+           L 254.7 502.4
+           A 210.6 210.6 0 0 0 465.3 502.4
+           Z"/>
+
+  <!-- Burrow 20 deg offset (bearing 70), 2.5-12.5 km; drawn after crescents -->
+  <polygon class="burrow"
+           points="382.1,353.4 364.5,359.8 417.9,506.4 435.5,500.0"/>
+
+  <line class="axis" x1="360" y1="320" x2="570" y2="320"/>
+  <g class="callout">
+    <line x1="372" y1="316" x2="372" y2="324"/>
+    <line x1="399" y1="316" x2="399" y2="324"/>
+    <line x1="446" y1="316" x2="446" y2="324"/>
+    <line x1="516" y1="316" x2="516" y2="324"/>
+    <line x1="555" y1="316" x2="555" y2="324"/>
+    <line x1="570" y1="316" x2="570" y2="324"/>
+  </g>
+
+  <text class="title" x="24" y="28">CIBoT city footprint - plan</text>
+  <text class="label-sm" x="24" y="46">Hedgerow on Outshire seam | Burrow entry meets that seam | runs spawn in Cell</text>
+
+  <text class="dim" x="374" y="308">0.8</text>
+  <text class="dim" x="401" y="308">2.5</text>
+  <text class="dim" x="448" y="308">5.5</text>
+  <text class="dim" x="508" y="308">10</text>
+  <text class="dim" x="540" y="308">12.5</text>
+  <text class="dim" x="558" y="308">13.5</text>
+
+  <text class="label" x="360" y="324" text-anchor="middle" font-size="8">CIBoT</text>
+  <text class="label-sm" x="390" y="298">Inner</text>
+  <text class="label-sm" x="430" y="280">Mid</text>
+  <text class="label-sm" x="490" y="260">Outer</text>
+  <text class="burrow-label" x="430" y="455">Burrow entry</text>
+  <text class="burrow-label" x="430" y="469">at Hedgerow seam</text>
+  <text class="label" x="360" y="430" text-anchor="middle">Outshire (~120 deg)</text>
+  <text class="label" x="360" y="520" text-anchor="middle">Hedgerow seam (~60 deg, 1 km)</text>
+  <text class="mute" x="560" y="200">unmapped</text>
+  <text class="mute" x="100" y="200">unmapped</text>
+
+  <g transform="translate(24, 580)">
+    <rect class="core" x="0" y="0" width="14" height="14"/>
+    <text class="label-sm" x="20" y="11">CIBoT 0.8 km</text>
+    <rect class="mid" x="120" y="0" width="14" height="14"/>
+    <text class="label-sm" x="140" y="11">Mid / Outer rings</text>
+    <rect class="outshire" x="260" y="0" width="14" height="14"/>
+    <text class="label-sm" x="280" y="11">Outshire 120 deg</text>
+    <rect class="hedge" x="400" y="0" width="14" height="14"/>
+    <text class="label-sm" x="420" y="11">Hedgerow seam</text>
+    <rect class="burrow" x="0" y="22" width="28" height="8"/>
+    <text class="label-sm" x="36" y="30">Burrow 0.5 x 10 km to seam (20 deg)</text>
+    <rect class="unmapped" x="320" y="22" width="14" height="14"/>
+    <text class="label-sm" x="342" y="33">unmapped fringe</text>
+  </g>
+</svg>

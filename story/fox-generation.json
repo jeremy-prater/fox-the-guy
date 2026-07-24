@@ -1,66 +1,476 @@
 {
-  "trade": [
-    "apothecary",
-    "tanner",
-    "lamp-trimmer",
-    "disgraced clerk",
-    "pickpocket",
-    "schoolteacher",
-    "time-broker, defected",
-    "mecha-mechanic, fired",
-    "pamphlet printer's devil",
-    "fuse-cutter",
-    "ledger-band mender",
-    "roof-thatch repairer",
-    "clockwind seller (unlicensed)",
-    "powder-mill hand",
-    "mask-pulp presser",
-    "crow-handler",
-    "debt-collector's runner, retired",
-    "hospice water-carrier",
-    "Bank vending-machine saboteur",
-    "arcology gutter-scavenger",
-    "chalkboard tally-keeper",
-    "soup-kitchen ladle",
-    "forgery of time-script (amateur)",
-    "tower-window washer, fired for looking",
-    "burrow map-copyist",
-    "night-soil cart puller",
-    "bell-ringer, parish discontinued",
-    "ink-mixer",
-    "band-counter (honest, once)",
-    "courier between Cells"
+  "mission_types": [
+    "courier",
+    "clock",
+    "redistribution",
+    "ceremony",
+    "odd_job",
+    "powder",
+    "infiltration",
+    "ledger",
+    "pamphlet",
+    "medical",
+    "extraction",
+    "quartermaster"
   ],
-  "reason": [
-    "the Bank foreclosed on my mother",
-    "I needed the hours",
-    "I was already going to die of the cough, and what's the Bank going to do, call in my time twice?",
-    "my kit's band was blinking red",
-    "a Cousin asked and I owed them a favor",
-    "the enforcers took my neighbor; someone had to answer",
-    "I stole from the wrong ledger and running out the clock seemed cleaner than prison",
-    "the mask fit",
-    "I wanted to see the Tower from the inside before I stopped",
-    "my trade-tools were repossessed; the mask was what was left",
-    "a child sang the Old Song at me and I couldn't not",
-    "the Bank charged me a week to cross a checkpoint I couldn't afford",
-    "I was bored and then I wasn't",
-    "my name was on a broadsheet I didn't write",
-    "the hospice door was open and empty",
-    "I lost a bet with Bramble Hook",
-    "the fifth is coming and someone has to ring the bell",
-    "I needed to prove I wasn't inventory",
-    "my brother wore the mask last month; the harness still smelled like him",
-    "the Vault pamphlet said one thing and the crow said another",
-    "I had eleven minutes left and a grudge",
-    "the Bank called in my cousin; I called in the night",
-    "I was going to turn myself in anyway",
-    "a stranger in an alley touched my paw and their band went green for one second",
-    "the Powderworks doubled output and I took it personally",
-    "I read a confession on a dead Guy and believed it",
-    "the Library burned a book I'd only half memorized",
-    "I needed leakage money for the printer's ink",
-    "nobody else showed up",
-    "I wanted one good story before the Bank forgot my name"
-  ]
+  "baseline": {
+    "strength": 5,
+    "agility": 7,
+    "endurance": 6,
+    "movement": 7,
+    "dexterity": 6,
+    "perception": 7,
+    "cunning": 6,
+    "knowledge": 5,
+    "presence": 5,
+    "nerve": 6
+  },
+  "name": [
+    "Tiny Thomas Quickfoot",
+    "Foreclosure №889-D",
+    "Ash Whisk",
+    "Nettle Penny",
+    "Brick-Tail",
+    "Old Ember",
+    "Skip Ledger",
+    "Moss-on-Chrome",
+    "Picket Quill",
+    "Red Static",
+    "Cobble Rue",
+    "Gutter-Spark",
+    "Sister Fuse",
+    "Brother Ping",
+    "The Soft Click",
+    "Vault-Scratch",
+    "Eleven-Minute Mae",
+    "Crowbait",
+    "Solder Thorn",
+    "Latchkey Finn",
+    "Ozone Marrow",
+    "Patchwork Jill",
+    "Dead-Channel Den",
+    "Strut-Walker",
+    "Amber-Eye",
+    "Leakage Lou",
+    "Container Kit",
+    "Trust-Cut Tess",
+    "Powder Rue",
+    "Night-Serial"
+  ],
+  "trade": {
+    "apothecary": {
+      "modifiers": { "knowledge": 2, "perception": 1, "strength": -1 },
+      "mission_types": ["medical", "redistribution"]
+    },
+    "tanner": {
+      "modifiers": { "endurance": 2, "strength": 1, "presence": -1 },
+      "mission_types": ["quartermaster", "odd_job"]
+    },
+    "licensed-light splice-runner": {
+      "modifiers": { "dexterity": 2, "perception": 1, "movement": -1 },
+      "mission_types": ["odd_job", "clock"]
+    },
+    "disgraced clerk": {
+      "modifiers": { "knowledge": 2, "cunning": 1, "presence": -1 },
+      "mission_types": ["ledger", "infiltration"]
+    },
+    "pickpocket": {
+      "modifiers": { "agility": 2, "cunning": 1, "strength": -1 },
+      "mission_types": ["redistribution", "infiltration"]
+    },
+    "schoolteacher": {
+      "modifiers": { "knowledge": 2, "presence": 1, "agility": -1 },
+      "mission_types": ["pamphlet", "ceremony"]
+    },
+    "time-broker, defected": {
+      "modifiers": { "knowledge": 2, "cunning": 1, "nerve": -1 },
+      "mission_types": ["ledger", "redistribution"]
+    },
+    "mecha-mechanic, fired": {
+      "modifiers": { "dexterity": 2, "strength": 1, "presence": -1 },
+      "mission_types": ["odd_job", "infiltration"]
+    },
+    "pamphlet printer's devil": {
+      "modifiers": { "dexterity": 2, "movement": 1, "endurance": -1 },
+      "mission_types": ["pamphlet", "courier"]
+    },
+    "fuse-cutter": {
+      "modifiers": { "dexterity": 2, "nerve": 1, "presence": -1 },
+      "mission_types": ["powder", "odd_job"]
+    },
+    "ledger-band mender": {
+      "modifiers": { "dexterity": 2, "knowledge": 1, "strength": -1 },
+      "mission_types": ["ledger", "redistribution"]
+    },
+    "container-strut rigger": {
+      "modifiers": { "agility": 2, "endurance": 1, "knowledge": -1 },
+      "mission_types": ["extraction", "odd_job"]
+    },
+    "clockwind seller (unlicensed)": {
+      "modifiers": { "cunning": 2, "perception": 1, "strength": -1 },
+      "mission_types": ["clock", "redistribution"]
+    },
+    "powder-mill hand": {
+      "modifiers": { "endurance": 2, "nerve": 1, "presence": -1 },
+      "mission_types": ["powder", "odd_job"]
+    },
+    "mask-rewirer": {
+      "modifiers": { "dexterity": 2, "knowledge": 1, "presence": -1 },
+      "mission_types": ["ceremony", "infiltration"]
+    },
+    "crow-handler": {
+      "modifiers": { "perception": 2, "cunning": 1, "presence": -1 },
+      "mission_types": ["courier", "clock"]
+    },
+    "debt-collector's runner, retired": {
+      "modifiers": { "movement": 2, "agility": 1, "presence": -1 },
+      "mission_types": ["redistribution", "ledger"]
+    },
+    "hospice water-carrier": {
+      "modifiers": { "endurance": 2, "presence": 1, "cunning": -1 },
+      "mission_types": ["medical", "redistribution"]
+    },
+    "Bank vending-machine saboteur": {
+      "modifiers": { "cunning": 2, "dexterity": 1, "presence": -1 },
+      "mission_types": ["infiltration", "odd_job"]
+    },
+    "arcology gutter-scavenger": {
+      "modifiers": { "perception": 2, "endurance": 1, "presence": -1 },
+      "mission_types": ["extraction", "infiltration"]
+    },
+    "scrubbed tally-board keeper": {
+      "modifiers": { "knowledge": 2, "perception": 1, "agility": -1 },
+      "mission_types": ["ledger", "redistribution"]
+    },
+    "soup-kitchen ladle": {
+      "modifiers": { "endurance": 2, "presence": 1, "cunning": -1 },
+      "mission_types": ["medical", "redistribution"]
+    },
+    "forgery of time-script (amateur)": {
+      "modifiers": { "cunning": 2, "dexterity": 1, "knowledge": -1 },
+      "mission_types": ["ledger", "infiltration"]
+    },
+    "tower-window washer, fired for looking": {
+      "modifiers": { "agility": 2, "perception": 1, "nerve": -1 },
+      "mission_types": ["infiltration", "extraction"]
+    },
+    "burrow map-copyist": {
+      "modifiers": { "knowledge": 2, "dexterity": 1, "strength": -1 },
+      "mission_types": ["extraction", "courier"]
+    },
+    "jammer-pack scrubber": {
+      "modifiers": { "dexterity": 2, "cunning": 1, "presence": -1 },
+      "mission_types": ["quartermaster", "infiltration"]
+    },
+    "pirate-relay tech": {
+      "modifiers": { "knowledge": 2, "perception": 1, "strength": -1 },
+      "mission_types": ["courier", "clock"]
+    },
+    "ink-mixer": {
+      "modifiers": { "dexterity": 2, "knowledge": 1, "movement": -1 },
+      "mission_types": ["pamphlet", "quartermaster"]
+    },
+    "band-counter (honest, once)": {
+      "modifiers": { "perception": 2, "knowledge": 1, "cunning": -1 },
+      "mission_types": ["ledger", "redistribution"]
+    },
+    "courier between Cells": {
+      "modifiers": { "movement": 2, "agility": 1, "knowledge": -1 },
+      "mission_types": ["courier", "extraction"]
+    }
+  },
+  "piece": {
+    "pocket_jammer": {
+      "description": "pocket jammer — thirty seconds of dead enforcer optics if Hector scrubbed it right",
+      "modifiers": { "cunning": 1 }
+    },
+    "cut_down_riot_lance": {
+      "description": "cut-down riot lance — experimental Bank energy, Vault never cleared it for street use",
+      "modifiers": { "strength": 1, "nerve": 1 }
+    },
+    "spoofed_trust_link_chip": {
+      "description": "spoofed trust-link chip on a wire — ghosts one checkpoint handshake",
+      "modifiers": { "cunning": 1 }
+    },
+    "enforcer_faceplate": {
+      "description": "enforcer faceplate, fox-snout cut, serials burned, grin etched in amber HUD",
+      "modifiers": { "presence": 1 }
+    },
+    "overclocked_band_reader": {
+      "description": "overclocked band-reader that screams when a Vault ping is nearby",
+      "modifiers": { "perception": 1 }
+    },
+    "scrubbed_tower_optics_pack": {
+      "description": "scrubbed Tower optics pack — see through mirrored glass for one breath",
+      "modifiers": { "perception": 1 }
+    },
+    "dead_channel_pirate_transmitter": {
+      "description": "dead-channel pirate transmitter the size of a prayer book",
+      "modifiers": { "knowledge": 1 }
+    },
+    "retuned_riot_baton": {
+      "description": "riot baton with the charge cell cracked open and retuned",
+      "modifiers": { "strength": 1 }
+    },
+    "network_deaf_powder_charge": {
+      "description": "powder charge with a network-deaf fuse — for when chrome won't listen",
+      "modifiers": { "nerve": 1 }
+    },
+    "mecha_actuator_door_spreader": {
+      "description": "gutted mecha actuator used as a door-spreader",
+      "modifiers": { "strength": 1 }
+    },
+    "stolen_vault_courier_satchel": {
+      "description": "stolen Vault courier satchel that still smells like ozone",
+      "modifiers": { "movement": 1 }
+    },
+    "scrap_climbing_claws": {
+      "description": "pair of scrap-welded climbing claws cut from strut plating",
+      "modifiers": { "agility": 1 }
+    },
+    "jammer_lance_hybrid": {
+      "description": "jammer-lance hybrid — half static, half sting, all illegal",
+      "modifiers": { "dexterity": 1 }
+    },
+    "bank_med_scanner": {
+      "description": "Bank med-scanner with the upstairs handshake cut",
+      "modifiers": { "knowledge": 1 }
+    },
+    "enforcer_recall_flare": {
+      "description": "signal flare that mimics an enforcer recall ping",
+      "modifiers": { "cunning": 1 }
+    },
+    "single_shot_powder_piece": {
+      "description": "single-shot powder piece for when the jammer dies first",
+      "modifiers": { "nerve": 1 }
+    },
+    "rewired_ledger_cuff_clamp": {
+      "description": "rewired ledger-cuff clamp — transfers time meaner than a handshake",
+      "modifiers": { "cunning": 1 }
+    },
+    "container_door_hydraulic_pin": {
+      "description": "container-door hydraulic pin, pocket-sized, loud",
+      "modifiers": { "strength": 1 }
+    },
+    "pirate_relay_spike": {
+      "description": "pirate-relay spike — bleed a licensed channel for three minutes",
+      "modifiers": { "knowledge": 1 }
+    },
+    "crowd_dispersal_emitter": {
+      "description": "experimental crowd-dispersal emitter, cut to fox-grip, still hot",
+      "modifiers": { "presence": 1, "nerve": -1 }
+    }
+  },
+  "personal_touch": {
+    "discontinued_prayer_bead": {
+      "description": "a prayer bead from a religion the Bank discontinued",
+      "modifiers": { "nerve": 1 }
+    },
+    "childs_drawing": {
+      "description": "a child's drawing, folded small enough for a pouch",
+      "modifiers": { "presence": 1 }
+    },
+    "last_guys_tape": {
+      "description": "tape with last Guy's handwriting still sticky on the harness",
+      "modifiers": { "nerve": 1 }
+    },
+    "scratched_bank_serial_tag": {
+      "description": "a scratched-out Bank serial tag kept as a charm",
+      "modifiers": { "cunning": 1 }
+    },
+    "amber_sensor_eye": {
+      "description": "one amber sensor-eye from a mask that died with its wearer",
+      "modifiers": { "perception": 1 }
+    },
+    "crow_feather": {
+      "description": "a crow feather wired into the webbing",
+      "modifiers": { "perception": 1 }
+    },
+    "powder_thimble": {
+      "description": "a thimble of black powder in wax paper — for luck, not use",
+      "modifiers": { "nerve": 1 }
+    },
+    "hectors_grease_pencil_x": {
+      "description": "Hector's grease-pencil X on the jammer pack: 'don't ping'",
+      "modifiers": { "knowledge": 1 }
+    },
+    "hospice_chalk_stub": {
+      "description": "a hospice chalk stub that still writes names",
+      "modifiers": { "presence": 1 }
+    },
+    "sister_inkwells_layout_scrap": {
+      "description": "Sister Inkwell's paste-stained layout scrap",
+      "modifiers": { "knowledge": 1 }
+    },
+    "painted_strut_bolt": {
+      "description": "a tiny strut bolt painted with a mask-mark",
+      "modifiers": { "nerve": 1 }
+    },
+    "dead_trust_link_ribbon": {
+      "description": "a dead trust-link ribbon, knotted once",
+      "modifiers": { "cunning": 1 }
+    },
+    "marrows_name_list": {
+      "description": "Marrow's list of names, half crossed out",
+      "modifiers": { "nerve": 1, "presence": -1 }
+    },
+    "kitling_crow_whistle": {
+      "description": "a pirate-frequency whistle only Kitling's crows answer",
+      "modifiers": { "perception": 1 }
+    },
+    "unread_confession": {
+      "description": "a folded confession found on a body, unread",
+      "modifiers": { "knowledge": 1 }
+    },
+    "sealed_month_of_time": {
+      "description": "one month of time sealed in a cracked band, never spent",
+      "modifiers": { "endurance": 1 }
+    },
+    "mirrored_glass_scrap": {
+      "description": "a scrap of mirrored glass from the Bank's face",
+      "modifiers": { "perception": 1 }
+    },
+    "widow_plumbs_song_fragment": {
+      "description": "Widow Plumb's song fragment written inside the harness",
+      "modifiers": { "presence": 1 }
+    },
+    "soldering_iron_worry_stone": {
+      "description": "a soldering iron tip worn smooth as a worry-stone",
+      "modifiers": { "dexterity": 1 }
+    },
+    "last_months_guy_smell": {
+      "description": "the smell of last month's Guy still in the straps",
+      "modifiers": { "nerve": 1, "presence": -1 }
+    }
+  },
+  "reason": {
+    "bank_foreclosed_mother": {
+      "description": "the Bank foreclosed on my mother",
+      "modifiers": { "nerve": 1 }
+    },
+    "needed_the_hours": {
+      "description": "I needed the hours",
+      "modifiers": { "endurance": 1 }
+    },
+    "dying_of_the_cough": {
+      "description": "I was already going to die of the cough, and what's the Bank going to do, call in my time twice?",
+      "modifiers": { "nerve": 1, "endurance": -1 }
+    },
+    "kits_band_blinking_red": {
+      "description": "my kit's band was blinking red",
+      "modifiers": { "nerve": 1 }
+    },
+    "cousin_favor": {
+      "description": "a Cousin asked and I owed them a favor",
+      "modifiers": { "presence": 1 }
+    },
+    "enforcers_took_neighbor": {
+      "description": "the enforcers took my neighbor; someone had to answer",
+      "modifiers": { "nerve": 1 }
+    },
+    "stole_from_wrong_ledger": {
+      "description": "I stole from the wrong ledger and running out the clock seemed cleaner than prison",
+      "modifiers": { "cunning": 1, "presence": -1 }
+    },
+    "mask_powered_on": {
+      "description": "the mask powered on when I touched it",
+      "modifiers": { "nerve": 1 }
+    },
+    "see_tower_from_inside": {
+      "description": "I wanted to see the Tower from the inside before I stopped",
+      "modifiers": { "perception": 1 }
+    },
+    "tools_repossessed": {
+      "description": "my trade-tools were repossessed; the scrubbed faceplate was what was left",
+      "modifiers": { "cunning": 1 }
+    },
+    "child_sang_old_song": {
+      "description": "a child sang the Old Song at me and I couldn't not",
+      "modifiers": { "presence": 1 }
+    },
+    "checkpoint_week_charge": {
+      "description": "the Bank charged me a week to cross a checkpoint I couldn't afford",
+      "modifiers": { "cunning": 1 }
+    },
+    "bored_then_wasnt": {
+      "description": "I was bored and then I wasn't",
+      "modifiers": { "nerve": 1 }
+    },
+    "name_on_broadsheet": {
+      "description": "my name was on a broadsheet I didn't write",
+      "modifiers": { "presence": 1 }
+    },
+    "hospice_door_empty": {
+      "description": "the hospice door was open and empty",
+      "modifiers": { "presence": 1 }
+    },
+    "lost_bet_bramble_hook": {
+      "description": "I lost a bet with Bramble Hook",
+      "modifiers": { "nerve": 1 }
+    },
+    "fifth_is_coming": {
+      "description": "the fifth is coming and someone has to ring the bell",
+      "modifiers": { "nerve": 1 }
+    },
+    "prove_not_inventory": {
+      "description": "I needed to prove I wasn't inventory",
+      "modifiers": { "presence": 1 }
+    },
+    "brother_wore_mask": {
+      "description": "my brother wore the mask last month; the harness still smelled like him",
+      "modifiers": { "nerve": 1 }
+    },
+    "vault_pamphlet_vs_crow": {
+      "description": "the Vault pamphlet said one thing and the crow said another",
+      "modifiers": { "cunning": 1 }
+    },
+    "eleven_minutes_and_grudge": {
+      "description": "I had eleven minutes left and a grudge",
+      "modifiers": { "nerve": 1, "endurance": -1 }
+    },
+    "bank_called_cousin": {
+      "description": "the Bank called in my cousin; I called in the night",
+      "modifiers": { "nerve": 1 }
+    },
+    "turning_myself_in": {
+      "description": "I was going to turn myself in anyway",
+      "modifiers": { "nerve": 1 }
+    },
+    "stranger_band_went_green": {
+      "description": "a stranger in an alley touched my paw and their band went green for one second",
+      "modifiers": { "perception": 1 }
+    },
+    "powderworks_doubled": {
+      "description": "the Powderworks doubled output and I took it personally",
+      "modifiers": { "nerve": 1 }
+    },
+    "believed_dead_guys_confession": {
+      "description": "I read a confession on a dead Guy and believed it",
+      "modifiers": { "knowledge": 1 }
+    },
+    "library_burned_book": {
+      "description": "the Library burned a book I'd only half memorized",
+      "modifiers": { "knowledge": 1 }
+    },
+    "leakage_money_for_hector": {
+      "description": "I needed leakage money for Hector's jammer packs",
+      "modifiers": { "cunning": 1 }
+    },
+    "nobody_else_showed": {
+      "description": "nobody else showed up",
+      "modifiers": { "nerve": 1 }
+    },
+    "one_good_story": {
+      "description": "I wanted one good story before the Bank forgot my name",
+      "modifiers": { "presence": 1 }
+    },
+    "might_as_well_get_mad": {
+      "description": "I might as well get mad too",
+      "modifiers": { "nerve": 1 }
+    },
+    "closest_to_band_blink": {
+      "description": "the stolen net heard a band blink before the enforcers did, and I was closest",
+      "modifiers": { "perception": 1, "movement": 1 }
+    }
+  }
 }

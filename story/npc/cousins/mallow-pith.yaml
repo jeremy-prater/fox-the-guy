@@ -6,10 +6,10 @@ territory: Hospice tally, Outshire arcology fringe
 species: hare
 mission_types:
   - redistribution
-role: Assigns Redistributions to debtors whose bands are blinking red. Keeps a chalkboard of names she erases when they stop blinking.
+role: Assigns Redistributions to debtors whose bands are blinking red. Keeps a scrubbed Bank tally board of names she erases when they stop blinking — chalk when the board lies.
 personality: Exhausted kindness. Treats death as bookkeeping and kindness as a line item she can still afford.
 sample_brief: |
-  Third-floor walk-up, latch sticks. Woman, two kits, band at eleven minutes. Manager on Cobble had lunch money — take half, Cousin, half, we need the leakage for the printer's ink. Touch her on the wrist, not the throat — she's had enough of that gesture. Back by grey light. I'll have tea. Or I won't. Either way, erase her when you're done.
+  Third-floor walk-up, latch sticks. Woman, two kits, band at eleven minutes — we heard the blink on the stolen net before the enforcers did. Manager on Cobble had lunch money — take half, Cousin, half, we need the leakage for the printer and Hector's jammer packs. Touch her on the wrist, not the throat — she's had enough of that gesture. Back by grey light. I'll have tea. Or I won't. Either way, erase her when you're done.
 voice:
   age: Late 40s–mid 50s
   gender: Female-presenting

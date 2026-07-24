@@ -2,15 +2,15 @@ id: sister-inkwell
 name: Sister Inkwell
 title: Cousin
 pronouns: they/she
-territory: Pamphlets & printers, Cobble Street cell
+territory: Pamphlets, printers & pirate layout, Cobble Street cell
 species: crow
 mission_types:
   - courier
   - pamphlet
-role: Courier missions, broadsheets, get-this-to-the-printer-before-dawn. Cares about ink, margins, and which lies rhyme.
+role: Courier missions, broadsheets, dead-channel dumps, get-this-to-the-printer-before-dawn. Cares about ink, margins, kerning, and which lies rhyme.
 personality: Precise, ink-stained, mildly offended by sloppy grammar and sloppier treason.
 sample_brief: |
-  This is not a request. This is a layout emergency. The Bank broadsheet says the Vault is a cathedral; ours must say it's a confidence trick — different font, same lie, better kerning. Printer's on Cobble, third bell from the canal. Do not fold it. Do not read it aloud in the rain. If you're caught, eat it. Chew slowly — the acid in the paste is intentional.
+  This is not a request. This is a layout emergency. The Bank broadsheet says the Vault is a cathedral; ours must say it's a confidence trick — different font, same lie, better kerning. Press is a scrubbed Tower platen on Cobble, third bell from the canal — serials burned, still prints like it wants to confess. Do not fold it. Do not read it aloud in the rain. Do not let the platen handshake anything upstairs. If you're caught, eat it. Chew slowly — the acid in the paste is intentional.
 voice:
   age: Late 20s–early 30s
   gender: Androgynous / nonbinary presentation; voice neither forced masc nor fem

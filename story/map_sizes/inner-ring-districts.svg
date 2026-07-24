@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Inner Ring districts and roads</title>
+  <desc id="desc">Coin Court, Mirrored Plaza, Vault Approaches, Powderworks Yard, Saint Whithers, and Record Burn Annex connected to the Core Gate.</desc>
+  <defs><style><![CDATA[
+    .bg{fill:#17191c}.ring{fill:#3a4149;stroke:#abb4bc;stroke-width:3}.core{fill:#202329;stroke:#d0bd87;stroke-width:3;stroke-dasharray:7 5}
+    .road{fill:none;stroke:#ddc98d;stroke-width:9}.minor{fill:none;stroke:#948765;stroke-width:4}.district{fill:#46505a;stroke:#c1c8cd;stroke-width:2}
+    .institution{fill:#4a4236;stroke:#d2b875;stroke-width:2}.opaque{fill:#302f38;stroke:#8c819c;stroke-width:2}.danger{fill:#4d3636;stroke:#ce8378;stroke-width:2}.gate{fill:#ad8b4b;stroke:#f1d994;stroke-width:2}
+    .title{fill:#eee6d5;font:600 18px sans-serif}.subtitle{fill:#aaa99f;font:11px sans-serif}.label{fill:#f0eadc;font:600 12px sans-serif;text-anchor:middle}
+    .small{fill:#c4c0b4;font:10px sans-serif;text-anchor:middle}.roadlabel{fill:#ead49a;font:10px sans-serif;text-anchor:middle}.note{fill:#8f948f;font:10px sans-serif}
+  ]]></style></defs>
+  <rect class="bg" width="760" height="760"/>
+  <text class="title" x="24" y="30">Inner Ring - weeks toll</text>
+  <text class="subtitle" x="24" y="49">Institutional approaches and mirrored power | 0.8-2.5 km from CIBoT axis</text>
+  <circle class="ring" cx="380" cy="390" r="310"/><circle class="core" cx="380" cy="390" r="105"/>
+
+  <circle class="road" cx="380" cy="390" r="225"/>
+  <path class="minor" d="M380 80V285 M610 180L455 315 M670 465L475 425 M380 700V495 M85 480L285 425 M90 190L300 320"/>
+
+  <g><rect class="institution" x="285" y="72" width="190" height="92" rx="14"/>
+    <text class="label" x="380" y="105">COIN COURT</text><text class="small" x="380" y="125">Tower of Coins</text><text class="small" x="380" y="142">accounting processional</text></g>
+  <g><rect class="district" x="535" y="150" width="180" height="92" rx="14"/>
+    <text class="label" x="625" y="183">MIRRORED PLAZA</text><text class="small" x="625" y="203">executive arrivals</text><text class="small" x="625" y="220">licensed demonstrations</text></g>
+  <g><rect class="opaque" x="550" y="450" width="170" height="96" rx="14"/>
+    <text class="label" x="635" y="483">VAULT APPROACHES</text><text class="small" x="635" y="503">maps fail here</text><text class="small" x="635" y="520">one-way story weather</text></g>
+  <g><rect class="danger" x="285" y="610" width="190" height="92" rx="14"/>
+    <text class="label" x="380" y="643">POWDERWORKS YARD</text><text class="small" x="380" y="663">monopoly magazines</text><text class="small" x="380" y="680">cart road from Outer</text></g>
+  <g><rect class="institution" x="35" y="445" width="205" height="98" rx="14"/>
+    <text class="label" x="137" y="478">SAINT WHITHER'S</text><text class="small" x="137" y="498">Library quarter</text><text class="small" x="137" y="515">records that still exist</text></g>
+  <g><rect class="danger" x="38" y="150" width="200" height="94" rx="14"/>
+    <text class="label" x="138" y="183">RECORD BURN ANNEX</text><text class="small" x="138" y="203">blank records / ash vents</text><text class="small" x="138" y="220">memory enforcement</text></g>
+
+  <rect class="gate" x="330" y="350" width="100" height="80" rx="16"/>
+  <text class="label" x="380" y="383">CORE GATE</text><text class="small" x="380" y="403">CIBoT axis</text><text class="small" x="380" y="418">or worse</text>
+  <rect class="gate" x="346" y="685" width="68" height="28" rx="8"/><text class="small" x="380" y="704">MID GATE</text>
+
+  <text class="roadlabel" x="380" y="205">Coin Processional</text><text class="roadlabel" x="530" y="250" transform="rotate(-40 530 250)">Mirror Way</text>
+  <text class="roadlabel" x="550" y="462" transform="rotate(18 550 462)">Silent Road</text><text class="roadlabel" x="380" y="580">Powder Road</text>
+  <text class="roadlabel" x="210" y="460" transform="rotate(-18 210 460)">Saint Whither Way</text><text class="roadlabel" x="220" y="255" transform="rotate(35 220 255)">Ash Avenue</text>
+  <text class="roadlabel" x="380" y="392">INNER CIRCUIT</text>
+  <text class="note" x="24" y="738">Core Gate is the endgame threshold. Vault Approaches remain intentionally incomplete.</text>
+</svg>

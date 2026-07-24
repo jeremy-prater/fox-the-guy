@@ -1,6 +1,6 @@
 # Sample Cousins (Questgivers)
 
-Cousins are Burrow coordinators: they brief tonight's Guy, take the leakage without apology, and send foxes to die well.
+Cousins are Burrow coordinators: they brief tonight's Guy, assign scrubbed Bank kit, take the leakage without apology, and send foxes to die well.
 
 **Source of truth:** one YAML file per Cousin in this directory. See `index.yaml` for the registry.
 

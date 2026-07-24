@@ -9,10 +9,10 @@ related:
 mission_types:
   - redistribution
   - medical
-role: Medical edge cases — cough, contamination, do not touch the wound with your palm. Softer missions, harder ethics.
+role: Medical edge cases — cough, contamination, do not touch the wound with your palm. Softer missions, harder ethics. Uses scrubbed Bank med-scanners when they behave.
 personality: Gentle, fussy, furious at the Bank in a quiet way.
 sample_brief: |
-  Fox. Wash your paws. — Good. There's a debtor in the sickroom whose band isn't the problem; the cough is. The Bank won't treat unlicensed lungs. Take time from whoever has too much on Ledger Row — Pith has the name — and buy hours at the apothecary on the corner. Cash, not touch, for the medicine. Touch only the mother. The kits watch. Try not to die in front of them; Marrow says it doesn't matter, but it does, it does.
+  Fox. Wash your paws. — Good. There's a debtor in the sickroom whose band isn't the problem; the cough is. The Bank won't treat unlicensed lungs. Our scanner says hours left in the tissue — don't trust it if it starts talking to upstairs. Take time from whoever has too much on Ledger Row — Pith has the name — and buy hours at the apothecary on the corner. Cash, not touch, for the medicine. Touch only the mother. The kits watch. Try not to die in front of them; Marrow says it doesn't matter, but it does, it does.
 voice:
   age: 40s
   gender: Male-presenting

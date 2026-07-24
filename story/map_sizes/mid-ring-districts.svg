@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Mid Ring districts and roads</title>
+  <desc id="desc">Tower Fringe, Auditors Walk, Foreclosure Holding, Service Guts, Liftworks, and Relay Roofs connected by the Mid Circuit and radial roads.</desc>
+  <defs><style><![CDATA[
+    .bg{fill:#17191d}.ring{fill:#303842;stroke:#929eaa;stroke-width:3}.inner{fill:#17191d;stroke:#a3adb5;stroke-width:2;stroke-dasharray:7 5}
+    .road{fill:none;stroke:#d5bd7c;stroke-width:8}.minor{fill:none;stroke:#8e815f;stroke-width:4}.district{fill:#3b4652;stroke:#b4bdc5;stroke-width:2}
+    .danger{fill:#4a3438;stroke:#ce827b;stroke-width:2}.service{fill:#343e3b;stroke:#79a38d;stroke-width:2}.gate{fill:#a8894a;stroke:#f0d28b;stroke-width:2}
+    .title{fill:#eee6d5;font:600 18px sans-serif}.subtitle{fill:#aaa99f;font:11px sans-serif}.label{fill:#f0eadc;font:600 12px sans-serif;text-anchor:middle}
+    .small{fill:#c4c0b4;font:10px sans-serif;text-anchor:middle}.roadlabel{fill:#e0ca91;font:10px sans-serif;text-anchor:middle}.note{fill:#8f948f;font:10px sans-serif}
+  ]]></style></defs>
+  <rect class="bg" width="760" height="760"/>
+  <text class="title" x="24" y="30">Mid Ring - days toll</text>
+  <text class="subtitle" x="24" y="49">Auditors, holding blocks, lifts and service guts | 2.5-5.5 km from CIBoT axis</text>
+  <circle class="ring" cx="380" cy="390" r="310"/><circle class="inner" cx="380" cy="390" r="150"/>
+
+  <circle class="road" cx="380" cy="390" r="230"/>
+  <path class="minor" d="M380 80V240 M600 180L485 285 M665 465L520 435 M380 700V540 M95 485L240 440 M100 190L255 285"/>
+  <path class="minor" d="M380 240V150 M485 285L515 210 M520 435L600 390 M380 540V625 M240 440L160 390 M255 285L200 245"/>
+
+  <g><rect class="district" x="285" y="75" width="190" height="92" rx="14"/>
+    <text class="label" x="380" y="108">TOWER FRINGE</text><text class="small" x="380" y="128">bodyguards / intelligence</text><text class="small" x="380" y="145">Tower lifts begin here</text></g>
+  <g><rect class="district" x="535" y="150" width="175" height="92" rx="14"/>
+    <text class="label" x="622" y="183">AUDITORS' WALK</text><text class="small" x="622" y="203">payroll couriers</text><text class="small" x="622" y="220">ledger offices</text></g>
+  <g><rect class="danger" x="550" y="450" width="170" height="96" rx="14"/>
+    <text class="label" x="635" y="483">FORECLOSURE HOLDING</text><text class="small" x="635" y="503">debtor blocks</text><text class="small" x="635" y="520">service lift extraction</text></g>
+  <g><rect class="service" x="285" y="610" width="190" height="92" rx="14"/>
+    <text class="label" x="380" y="643">SERVICE GUTS</text><text class="small" x="380" y="663">ducts / sewer arteries</text><text class="small" x="380" y="680">primary Burrow descent</text></g>
+  <g><rect class="service" x="40" y="450" width="185" height="92" rx="14"/>
+    <text class="label" x="132" y="483">LIFTWORKS</text><text class="small" x="132" y="503">freight lifts / mechanics</text><text class="small" x="132" y="520">spoofable control rooms</text></g>
+  <g><rect class="service" x="42" y="150" width="185" height="92" rx="14"/>
+    <text class="label" x="134" y="183">RELAY ROOFS</text><text class="small" x="134" y="203">weathervanes / crow boards</text><text class="small" x="134" y="220">dead-channel transmitters</text></g>
+
+  <rect class="gate" x="348" y="685" width="64" height="28" rx="8"/><text class="small" x="380" y="704">OUTER</text>
+  <rect class="gate" x="346" y="137" width="68" height="28" rx="8"/><text class="small" x="380" y="156">INNER GATE</text>
+  <text class="roadlabel" x="380" y="190">Tower Causeway</text><text class="roadlabel" x="535" y="245" transform="rotate(-40 535 245)">Audit Avenue</text>
+  <text class="roadlabel" x="555" y="460" transform="rotate(18 555 460)">Holding Road</text><text class="roadlabel" x="380" y="580">Service Spine</text>
+  <text class="roadlabel" x="205" y="465" transform="rotate(-18 205 465)">Freight Way</text><text class="roadlabel" x="220" y="255" transform="rotate(35 220 255)">Relay Road</text>
+  <text class="roadlabel" x="380" y="392">MID CIRCUIT</text>
+  <text class="note" x="24" y="738">The service lift, ducts, and rooftops create the fox map beneath the official road map.</text>
+</svg>

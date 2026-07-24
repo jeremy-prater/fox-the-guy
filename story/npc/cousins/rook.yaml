@@ -10,7 +10,7 @@ mission_types:
 role: Missions that feel like traps. Contradictory intel. May be Cousin, may be Bank — the voice should carry that doubt.
 personality: Too smooth. Helpful in the wrong way.
 sample_brief: |
-  Cousin — cousin — listen. There's a ledger in Tower of Coins, sub-basement, unlabeled. Burn it. Or don't. The Bank wants you to think it's important. The Burrow wants you to think the Bank wants you to think that. I want you alive, which is suspicious, isn't it? Midnight. Side door. Password is 'foreclosure.' If they ask for your band, you don't have one. If they ask for your name, you're Guy. If they ask for mine, run.
+  Cousin — cousin — listen. There's a ledger in Tower of Coins, sub-basement, unlabeled. Burn it. Or don't. Spoof your mask's handshake if you must go near a trust-link — or don't, and see what happens. The Bank wants you to think it's important. The Burrow wants you to think the Bank wants you to think that. I want you alive, which is suspicious, isn't it? Midnight. Side door. Password is 'foreclosure.' If they ask for your band, you don't have one. If they ask for your name, you're Guy. If they ask for mine, run.
 voice:
   age: Indeterminate; play 35-45
   gender: Male-leaning, ambiguous charm

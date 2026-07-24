@@ -17,6 +17,7 @@ We are working from five creative touchstones:
 3. **Rocket Raccoon (MCU *Guardians of the Galaxy*) and Fox McCloud (*Star Fox 64*)** — the visual lineage for the protagonist. A small, sharp-eyed, anthropomorphic fox bristling with tactical gear too big for him. Rocket provides the silhouette detail (scavenged, mismatched, snarky, *underestimate-me-at-your-peril*); Starfox provides the silhouette shape (pilot/operator harness, mission patches, callsigns, a sense of being part of a squad of equals).
 4. **In Time** (Andrew Niccol, 2011) — the film that puts time-as-currency on people's arms as a glowing countdown, and frames the protagonist as a Robin Hood who steals time from the rich and gives it to the dying poor. We are taking from it (a) the visible mortality clock every citizen wears, (b) the stratified time-zones of the world separated by time-toll checkpoints, and (c) the **Robin Hood structure of the player's night-to-night gameplay**: rob the wealthy, redistribute to the Outshire, do it again before dawn. The Big Plot stays Guy Fawkes; the small plot is Robin Hood.
 5. **The Matrix** (Wachowskis, 1999) — not for the simulation, but for **vertical geography**: Zion in the caverns beneath the Machine City; the last free humans raid upward into a world that thinks it owns the sky. The **Burrow** under the **arcologies** is the same shape — down is home, up is the heist, back down before the machines notice.
+6. ***Johnny Mnemonic*** (1995) — specifically **Heaven**, the Lo-Tek headquarters: a scrap cathedral built entirely out of straight-world junk, hauled piece by piece into the underside of a dead bridge. The name sounds low-tech; the people are not. They run stolen corporate hardware, pirate broadcasts, and a resistance that lives *in* the city's discarded infrastructure. The **Burrow** is that energy under the arcologies — scavenged Bank chrome welded into tunnels, Containers and Cells hung from the underside of the machine-city, advanced kit with the logos scratched out.
 
 Two principles in particular from the article:
 
@@ -41,9 +42,9 @@ If no one intervenes, the balance hits zero and the debtor is **Called In**. The
 
 The Bank presents this as a market. The Burrow calls it what it is.
 
-Beneath the arcologies — literally — runs the **Burrow**. The arcologies are the Bank's machine-city: mirrored towers, checkpoints, licensed light, enforcers in the upper levels. The Burrow is what lives underneath — warrens, Cells, Cousins, the Old Songs, the smell of wet fur and black powder. Foxes **go up** to steal time and make trouble; they **go down** to survive the night. The vertical map is the game's map: the Hedgerow and the Outshire at the edges, the arcology rising in rings of wealth, the Burrow always below, always there when you need to vanish.
+Beneath the arcologies — literally — hangs the **Burrow**. The arcologies are the Bank's machine-city: mirrored towers, checkpoints, licensed light, enforcers in the upper levels. The Burrow is what was built into the underside — shipping containers and stolen floorplates bolted to support struts, server racks gutted and rewired, Cells stacked like a scrap cathedral under the vaulted dark. It smells of ozone, wet fur, solder, and black powder. Foxes **go up** to steal time and make trouble; they **go down** to survive the night. The vertical map is the game's map: the Hedgerow and the Outshire at the edges, the arcology rising in rings of wealth, the Burrow always below, always there when you need to vanish.
 
-The Burrow is the secret nation of the small and the foreclosed: foxes, hares, weasels who turned coat, crows who carry letters they cannot read, debtors who slipped the leash, hackers who burned their own ledgers. The Burrow has no CEO. It has Cells. It has Cousins. It has, most importantly, a name on every tongue. The Bank knows the Burrow exists. The Bank has never successfully foreclosed on it.
+The Burrow is the secret nation of the small and the foreclosed: foxes, hares, weasels who turned coat, crows who carry letters they cannot read, debtors who slipped the leash, hackers who burned their own ledgers. Everything in it was hauled down piece by piece from the straight world — Bank junk, Outshire salvage, Hedgerow scrap — and welded into something the Bank never licensed. The Burrow has no CEO. It has Cells. It has Cousins. It has, most importantly, a name on every tongue. The Bank knows the Burrow exists. The Bank has never successfully foreclosed on it.
 
 That name is **Guy**.
 
@@ -62,7 +63,29 @@ These institutions are the playing field. They give us districts, factions, and 
 
 Outside the arcologies are the **Outshire** — the slums, the service-towns, the failing infrastructure where the Bank's foreclosed end up. Beyond the Outshire is the **Hedgerow**: irradiated wastes, dead suburbs, deep woods that have grown back through old highways. Out here live the **Holdouts**: those who never took a loan from the Bank, who remember when the world was older and stranger. The Burrow recruits from the Hedgerow when it can. The Hedgerow mostly laughs at the Burrow for thinking the Bank can be brought down.
 
-The Hedgerow is where most runs begin.
+Most foxes come to the Burrow through the Hedgerow. A playable run begins in a Burrow Cell after that journey: mask, kit, Cousin brief, then up into the rings.
+
+### Districts of the Arcology
+
+Each time-zone has a watched ring road and radial roads leading to its checkpoint. Fox routes use the same districts but prefer roofs, gutters, lifts, ducts, and sewers.
+
+#### Outer Ring — hours
+
+Ledger Row supplies wealthy targets. Licensed Light and Clockwind Exchange move legal and less-legal technology; Patrol Yards stage enforcers; Powder Gate feeds carts inward; Gutter Ward provides the cleanest descents toward the Burrow.
+
+![Outer Ring districts and roads](map_sizes/outer-ring-districts.svg)
+
+#### Mid Ring — days
+
+Tower Fringe and Auditors' Walk hold payroll and intelligence. Foreclosure Holding supplies extraction missions. Liftworks, Relay Roofs, and Service Guts form the Mid Ring's soft underbelly.
+
+![Mid Ring districts and roads](map_sizes/mid-ring-districts.svg)
+
+#### Inner Ring — weeks
+
+Coin Court, Saint Whither's, the Powderworks Yard, and Mirrored Plaza surround the Core Gate. The Record Burn Annex destroys inconvenient memory. Vault Approaches appear on official plans, but the plans stop agreeing there.
+
+![Inner Ring districts and roads](map_sizes/inner-ring-districts.svg)
 
 ### How Time Works in Practice
 
@@ -78,11 +101,11 @@ The arcology is divided into **time-zones**: concentric rings, each gated by a c
 
 ### A note on aesthetic
 
-The world is 3030, or near enough — but the Burrow looks two hundred years older than that. **This is on purpose.**
+The world is 3030, or near enough. The Bank gleams chrome and glass and mirrored servers and walking mecha. The Burrow gleams too — but wrong. **This is on purpose.**
 
-Every new technology gets surveilled, co-opted, or owned by the Bank within months of its invention. The Burrow learned long ago that the only tools that work against the Bank are the ones too old to be patched: papier-mâché masks, hand-printed pamphlets, gunpowder, songs sung to children, a knife in the dark, a name no one writes down. The Burrow's culture is deliberately, ferociously retro — not because it's nostalgic, but because **the obsolete is the only thing the Bank can't foreclose on.**
+Every new technology gets surveilled, co-opted, or owned by the Bank within months of its invention. The Burrow's answer is not nostalgia. It is **theft**. The foxes strip Bank kit of its trust-links, scratch out the serials, rewire the faces, and hang the leftovers under the arcology until the scrap becomes a city. What cannot be stolen clean gets paired with things the network cannot touch: hand-printed pamphlets, gunpowder, songs sung to children, a knife in the dark, a name no one writes down.
 
-So the Bank gleams chrome and glass and mirrored servers and walking mecha. The foxes carry flint, fuse, mask, and pamphlet.
+So the Bank shines licensed light. The foxes shine stolen light — HUD amber in a mask that used to belong to an enforcer's faceplate, pirate signal bleeding through a dead channel, a Container bolted to a strut that was never meant to hold a home.
 
 ---
 
@@ -96,7 +119,7 @@ Foxes are real. They are anthropomorphic: bipedal, sharp-snouted, brush-tailed, 
 
 Whatever their origin, they are not citizens. They cannot take out a loan from the Bank, which means — depending on who you ask — either *they are free of the Bank's debt* or *they were never offered the dignity of being enslaved by it*. Both views are common in the Burrow, sometimes from the same fox in the same conversation.
 
-You become a Fox-with-a-capital-F — that is, **Guy** — when you put on the mask. The mask is a simple thing: pressed pulp, painted, with a sharp grin and amber-glass eyes, sized to fit a fox's snout. Anyone wearing it is, for that night, called Guy. When the mask comes off — or when its wearer dies, which is more common — Guy has gone away again. He will be back.
+You become a Fox-with-a-capital-F — that is, **Guy** — when you put on the mask. The mask is not folk craft. It is **stolen CIBoT tech**: a Bank faceplate, vault-visor, or trust-link interface, stripped of its serial, rewired in the Burrow, and cut down to fit a fox's snout. The grin is etched or projected; the amber eyes are sensors. Anyone wearing it is, for that night, called Guy. When the mask comes off — or when its wearer dies, which is more common — Guy has gone away again. He will be back.
 
 This is the *only* fixed point in the story. Everything else can be filled in.
 
@@ -105,22 +128,22 @@ This is the *only* fixed point in the story. Everything else can be filled in.
 The silhouette is the contract with the player. Get this right and the rest follows.
 
 - **The fox underneath.** Small. Lean. Wiry. Reads as competent before they've done anything. Eyes do most of the acting.
-- **The mask.** Papier-mâché grin, amber-glass eyes, sized for the snout. Usually pushed up onto the forehead when not actively committing treason. *Never* matched to the Bank's aesthetic.
-- **The harness.** A scavenged operator's plate carrier or webbing rig, cut down and re-stitched to fit a fox-sized frame. Pouches for fuses, primers, ink for the pamphlets, a wax-paper packet of black powder, a folded copy of tonight's mission.
-- **The patches.** Hand-stitched or hand-painted. Squad insignia from groups that mostly no longer exist. A mask-mark. Sometimes the names of dead cousins, in small careful letters.
-- **The piece.** Usually a slug-thrower or a single-shot powder weapon. Sometimes scavenged Bank-enforcer kit with the corporate logos scratched out. *Never* something with a serial number that pings.
+- **The mask.** Stolen Bank faceplate or vault-visor, fox-snout cut, corporate logos dead. Sharp grin, amber sensor-eyes, HUD bleed at the edges. Usually pushed up onto the forehead when not actively committing treason. It looks like the Bank's own tech wearing a traitor smile.
+- **The harness.** A scavenged operator's plate carrier or webbing rig, cut down and re-stitched to fit a fox-sized frame. Pouches for spoofed chips, primers, ink for the pamphlets, a wax-paper packet of black powder, a folded copy of tonight's mission.
+- **The patches.** Hand-stitched or hand-painted over corporate webbing. Squad insignia from groups that mostly no longer exist. A mask-mark. Sometimes the names of dead cousins, in small careful letters.
+- **The piece.** Stolen Bank kit, scrubbed and overclocked. Range runs from a pocket jammer that blindfolds enforcer optics for thirty seconds, to a cut-down riot lance that throws experimental energy the Vault never cleared for street use. Serials burned. Trust-links cut. *Never* something that still answers when the Vault pings.
 - **The personal touches.** Charms. A prayer bead from a religion the Bank discontinued. A child's drawing, folded small. Tape with handwriting on it. One thing that the player can imagine is precious to *this particular* fox, even though they will be dead by morning.
 
-The overall read: **Rocket Raccoon's energy, in Fox McCloud's silhouette, under a Guy Fawkes mask, in a world that thinks of him as inventory.**
+The overall read: **Rocket Raccoon's energy, in Fox McCloud's silhouette, under a Guy Fawkes grin built from stolen CIBoT chrome, in a world that thinks of him as inventory.**
 
-The Burrow does not mass-produce this kit. Every loadout is individual, mismatched, hand-finished. That is the look. If two foxes show up dressed identically, one of them is probably an undercover Bank operative and *both* of them are about to have a very bad night.
+The Burrow does not mass-produce this kit. Every loadout is individual, mismatched, hand-finished from whatever was stolen last week. That is the look. If two foxes show up dressed identically, one of them is probably an undercover Bank operative and *both* of them are about to have a very bad night.
 
 ### Why this matters for the game
 
 Every run, the player is a different fox who has, just this morning, picked up the mask. They have:
 
 - A **name** that is *not* Guy. (Generated. Sometimes silly. Sometimes sad. Brother Inkwell. Old Marrow. The Widow Plumb. Tiny Thomas Quickfoot. Foreclosure №889-D.)
-- A **trade** they had before they took up the mask. (Apothecary. Tanner. Lamp-trimmer. Disgraced clerk. Pickpocket. Schoolteacher. Time-broker, defected. Mecha-mechanic, fired.)
+- A **trade** they had before they took up the mask. (Apothecary. Tanner. Mask-rewirer. Jammer-pack scrubber. Pirate-relay tech. Disgraced clerk. Pickpocket. Time-broker, defected. Mecha-mechanic, fired.)
 - A **reason**, usually small. Not "to save the world." Something like: *the Bank foreclosed on my mother;* or *I needed the hours;* or *I was already going to die of the cough, and what's the Bank going to do, call in my time twice?*
 - A **wearing of the mask** that is, by tradition, only for *this one night.*
 
@@ -132,9 +155,9 @@ The legend of Guy grows from these deaths. Not from any single one of them.
 
 There was, the songs say, a first Guy. He may have been a real fox. He may have been a story the Burrow told to give itself courage.
 
-He lived *long before the Bank* — long enough ago that the original target was something else, some other tower, some other tyranny no one remembers anymore. He tried to blow it up and failed, and was hanged for it, and when the soldiers cut his body down they found the mask was empty.
+He lived *long before the Bank* — long enough ago that the original target was something else, some other tower, some other tyranny no one remembers anymore. He tried to blow it up and failed, and was hanged for it, and when the soldiers cut his body down they found the mask was empty — or powered down, depending which song you trust.
 
-The mask passed down. The targets changed. The mask is still here.
+The mask passed down. The targets changed. The hardware changed with them: pulp, then metal, then Bank chrome with the trust-link cut. The grin is still here.
 
 We **do not confirm or deny** any of this in the game. Different NPCs believe different things. Some of them are lying. Some of them are right.
 
@@ -207,12 +230,12 @@ These are the carriers of lore. Each is a chance to plant ambiguity, contradicti
 
 Held loosely, not as a moral, but as a tuning fork:
 
-- **The mask is heavier than the fox.** Symbols outlive the people who carry them, and they don't always behave the way their carriers hoped.
+- **The mask is heavier than the fox.** Symbols outlive the people who carry them, and they don't always behave the way their carriers hoped — especially when the symbol is still half Bank hardware.
 - **Time as currency, time as theft.** What the Bank calls a loan, the Burrow calls a hostage situation. Most of your life is already spoken for. The Plot is, in part, about taking it back.
 - **Robin Hood is the small story; Guy Fawkes is the big one.** The night-to-night verb is to steal time from the rich and give it to the dying. The once-in-a-generation dream is to blow up the Vault and free all of it forever. Both are the same impulse on different scales — and most foxes only ever live the small one.
-- **The obsolete is the only freedom left.** Anything new gets surveilled. The Burrow's strength is that its tools are too old to patch.
+- **Their tools, our city.** Anything licensed gets surveilled. The Burrow's strength is that it lives in stolen Bank tech — scrubbed, rewired, hung under the arcology where the Vault's maps go soft.
 - **Small acts, distant consequences.** A bell rung on the right night will, eventually, bring down a tower. A bell rung on the wrong night just wakes the watch.
-- **The state and the story it tells about itself.** The Bank's lies and the Burrow's lies are not symmetrical, but they are made of the same paper.
+- **The state and the story it tells about itself.** The Bank's lies and the Burrow's lies are not symmetrical, but they are made of the same paper — and sometimes the same circuit boards.
 - **Cyclical time, not heroic time.** No Guy ends the story. The story is the cycle. The fifth of November comes every year. It came before the Bank. It will come after.
 - **Comedy at the edges of dread.** Pratchett crossed with Deltron 3030: a swagger against an absurd machine. A failed plot is still a story, and often a funnier one than a successful plot.
 

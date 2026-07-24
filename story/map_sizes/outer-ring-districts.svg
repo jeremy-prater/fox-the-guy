@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Outer Ring districts and roads</title>
+  <desc id="desc">Ledger Row, Licensed Light Market, Patrol Yards, Powder Gate, Gutter Ward, and Clockwind Exchange connected by the Outer Circuit and radial roads.</desc>
+  <defs><style><![CDATA[
+    .bg{fill:#171a1d}.ring{fill:#2b3238;stroke:#7f8e99;stroke-width:3}.inner{fill:#171a1d;stroke:#8997a1;stroke-width:2;stroke-dasharray:7 5}
+    .road{fill:none;stroke:#d1b978;stroke-width:8}.minor{fill:none;stroke:#8e815f;stroke-width:4}.district{fill:#39444c;stroke:#aeb9c0;stroke-width:2}
+    .danger{fill:#493738;stroke:#c28275;stroke-width:2}.trade{fill:#403a2d;stroke:#c4a060;stroke-width:2}.gate{fill:#a8894a;stroke:#f0d28b;stroke-width:2}
+    .title{fill:#eee6d5;font:600 18px sans-serif}.subtitle{fill:#aaa99f;font:11px sans-serif}.label{fill:#f0eadc;font:600 12px sans-serif;text-anchor:middle}
+    .small{fill:#c4c0b4;font:10px sans-serif;text-anchor:middle}.roadlabel{fill:#e0ca91;font:10px sans-serif;text-anchor:middle}.note{fill:#8f948f;font:10px sans-serif}
+  ]]></style></defs>
+  <rect class="bg" width="760" height="760"/>
+  <text class="title" x="24" y="30">Outer Ring - hours toll</text>
+  <text class="subtitle" x="24" y="49">Targets, licensed markets, patrol staging | 5.5-10 km from CIBoT axis</text>
+  <circle class="ring" cx="380" cy="390" r="310"/><circle class="inner" cx="380" cy="390" r="155"/>
+
+  <circle class="road" cx="380" cy="390" r="235"/>
+  <path class="minor" d="M380 80V235 M600 185L490 280 M650 475L515 440 M380 700V545 M105 500L245 445 M110 205L255 290"/>
+  <path class="minor" d="M380 235V155 M490 280L490 205 M515 440L585 390 M380 545V625 M245 445L170 390 M255 290L205 250"/>
+
+  <g><rect class="trade" x="290" y="78" width="180" height="88" rx="14"/>
+    <text class="label" x="380" y="110">LEDGER ROW</text><text class="small" x="380" y="130">wealthy walkers / time targets</text><text class="small" x="380" y="147">mirrored residences</text></g>
+  <g><rect class="trade" x="535" y="155" width="170" height="88" rx="14"/>
+    <text class="label" x="620" y="187">LICENSED LIGHT</text><text class="small" x="620" y="207">splice market / clockwind</text><text class="small" x="620" y="224">trust-linked storefronts</text></g>
+  <g><rect class="danger" x="548" y="455" width="165" height="88" rx="14"/>
+    <text class="label" x="630" y="487">PATROL YARDS</text><text class="small" x="630" y="507">enforcer staging</text><text class="small" x="630" y="524">optics service / mecha pens</text></g>
+  <g><rect class="danger" x="285" y="610" width="190" height="88" rx="14"/>
+    <text class="label" x="380" y="642">POWDER GATE</text><text class="small" x="380" y="662">carts / lying clock</text><text class="small" x="380" y="679">route inward to Works</text></g>
+  <g><rect class="district" x="45" y="465" width="180" height="88" rx="14"/>
+    <text class="label" x="135" y="497">GUTTER WARD</text><text class="small" x="135" y="517">facade scrambles</text><text class="small" x="135" y="534">sewer descents to Burrow</text></g>
+  <g><rect class="trade" x="48" y="165" width="180" height="88" rx="14"/>
+    <text class="label" x="138" y="197">CLOCKWIND EXCHANGE</text><text class="small" x="138" y="217">unlicensed minutes</text><text class="small" x="138" y="234">crow drops / relay stalls</text></g>
+
+  <rect class="gate" x="348" y="685" width="64" height="28" rx="8"/><text class="small" x="380" y="704">OUTSHIRE</text>
+  <rect class="gate" x="348" y="140" width="64" height="28" rx="8"/><text class="small" x="380" y="159">MID GATE</text>
+  <text class="roadlabel" x="380" y="184">Ledger Avenue</text><text class="roadlabel" x="530" y="245" transform="rotate(-40 530 245)">Lightline</text>
+  <text class="roadlabel" x="553" y="462" transform="rotate(20 553 462)">Enforcement Way</text><text class="roadlabel" x="380" y="585">Powder Cart Road</text>
+  <text class="roadlabel" x="205" y="470" transform="rotate(-20 205 470)">Gutter Road</text><text class="roadlabel" x="220" y="260" transform="rotate(35 220 260)">Clockwind Road</text>
+  <text class="roadlabel" x="380" y="392">OUTER CIRCUIT</text>
+  <text class="note" x="24" y="738">Gold roads are legal and watched. Sewer, roof, and gutter side channels are omitted; see map.md.</text>
+</svg>

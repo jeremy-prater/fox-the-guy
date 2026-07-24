@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" role="img" aria-labelledby="title desc">
+  <title id="title">Crescents and Burrow seam entry</title>
+  <desc id="desc">Outshire crescent, thin Hedgerow on the seam, Burrow strip at 20 deg offset meeting that seam as entry.</desc>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #1a1c1a; }
+      .outer-fill { fill: #2c3238; stroke: #7a8894; stroke-width: 2; }
+      .mid-fill { fill: #323840; stroke: #8a96a0; stroke-width: 1; }
+      .outshire { fill: #3d3428; stroke: #a8894a; stroke-width: 2.5; }
+      .hedge { fill: #2a3328; stroke: #5a6b52; stroke-width: 2.5; }
+      .burrow { fill: #c4a060; fill-opacity: 0.55; stroke: #e0c070; stroke-width: 1.5; }
+      .ray { stroke: #d8c89a; stroke-width: 1; stroke-dasharray: 5 4; opacity: 0.8; }
+      .label { fill: #e8e0d0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 12px; }
+      .label-sm { fill: #b8b0a0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 10px; }
+      .title { fill: #e8e0d0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 14px; font-weight: 600; }
+      .dim { fill: #d8c89a; font-family: "IBM Plex Mono", "Consolas", monospace; font-size: 11px; }
+      .note { fill: #c4b48a; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 11px; }
+      .mute { fill: #6a7068; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 10px; }
+      .burrow-label { fill: #e0c070; font-family: "IBM Plex Sans", "Segoe UI", sans-serif; font-size: 10px; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" width="640" height="620"/>
+
+  <text class="title" x="24" y="28">Crescents + Burrow at Hedgerow seam</text>
+  <text class="label-sm" x="24" y="46">Hedgerow is 1 km deep on the seam | Burrow tip = climb-in / drop-out | runs spawn in Cell</text>
+
+  <circle class="mid-fill" cx="320" cy="280" r="88"/>
+  <circle class="outer-fill" cx="320" cy="280" r="160"/>
+  <circle cx="320" cy="280" r="20" fill="#4a5058" stroke="#c4b48a" stroke-width="2"/>
+  <text class="label-sm" x="320" y="284" text-anchor="middle">CIBoT</text>
+
+  <!-- Outshire 120 deg, r 160-200 -->
+  <path class="outshire"
+        d="M 458.6 360
+           A 160 160 0 0 1 181.4 360
+           L 146.8 380
+           A 200 200 0 0 0 493.2 380
+           Z"/>
+
+  <!-- Hedgerow 60 deg, r 200-216 (12.5-13.5 km) -->
+  <path class="hedge"
+        d="M 420 453.2
+           A 200 200 0 0 1 220 453.2
+           L 212 467.1
+           A 216 216 0 0 0 428 467.1
+           Z"/>
+
+  <!-- Burrow 20 deg (bearing 70), 2.5-12.5 km; above crescents -->
+  <polygon class="burrow"
+           points="342.7,314.3 324.7,320.9 379.4,471.2 397.4,464.7"/>
+
+  <line class="ray" x1="320" y1="280" x2="493" y2="380"/>
+  <line class="ray" x1="320" y1="280" x2="147" y2="380"/>
+  <line class="ray" x1="320" y1="280" x2="388" y2="468" stroke="#e0c070" stroke-dasharray="4 3"/>
+
+  <path fill="none" stroke="#a8894a" stroke-width="1.5"
+        d="M 390 330 A 70 70 0 0 1 250 330"/>
+  <text class="dim" x="320" y="358" text-anchor="middle">~120 deg</text>
+
+  <path fill="none" stroke="#5a6b52" stroke-width="1.5"
+        d="M 370 430 A 55 55 0 0 1 270 430"/>
+  <text class="dim" x="320" y="448" text-anchor="middle">~60 deg</text>
+
+  <text class="burrow-label" x="400" y="430">Burrow</text>
+  <text class="burrow-label" x="400" y="444">seam entry</text>
+  <text class="burrow-label" x="400" y="458">20 deg offset</text>
+
+  <text class="label" x="270" y="395" text-anchor="middle">Outshire</text>
+  <text class="label-sm" x="270" y="411" text-anchor="middle">Cobble / Brick / hospice</text>
+  <text class="label" x="320" y="500" text-anchor="middle">Hedgerow seam</text>
+  <text class="label-sm" x="320" y="516" text-anchor="middle">Bramble safehouse (1 km deep)</text>
+
+  <text class="label-sm" x="320" y="200" text-anchor="middle">Outer Ring</text>
+  <text class="label-sm" x="320" y="240" text-anchor="middle">Mid</text>
+  <text class="mute" x="500" y="220">unmapped</text>
+  <text class="mute" x="80" y="220">unmapped</text>
+
+  <text class="note" x="24" y="560">Burrow: 0.5 x 10 km at 20 deg - tip at Outshire/Hedgerow seam (12.5 km)</text>
+  <text class="note" x="24" y="578">Hedgerow: 12.5-13.5 km only | if ever walked: ~5-10 min to hatch</text>
+  <text class="note" x="24" y="596">Default run start: Burrow Cell (no commute)</text>
+</svg>
