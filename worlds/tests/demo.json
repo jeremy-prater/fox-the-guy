@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "placements": [
+    {
+      "id": "origin_marker",
+      "mesh": "meshes/crate",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.5, 0.0]
+      },
+      "components": [
+        { "type": "name", "value": "Origin" }
+      ]
+    },
+    {
+      "id": "brick_row",
+      "mesh": "meshes/brick",
+      "layout": {
+        "kind": "line",
+        "from": [-8.0, 0.5, 4.0],
+        "to": [8.0, 0.5, 4.0],
+        "count": 17,
+        "facing": "along"
+      }
+    },
+    {
+      "id": "ring_wall",
+      "mesh": "meshes/wall_segment",
+      "layout": {
+        "kind": "circle",
+        "center": [0.0, 0.5, 0.0],
+        "radius": 20.0,
+        "count": 48,
+        "start_angle_deg": 0.0,
+        "end_angle_deg": 360.0,
+        "facing": "outward"
+      }
+    },
+    {
+      "id": "road",
+      "mesh": "meshes/road_tile",
+      "layout": {
+        "kind": "spline",
+        "points": [
+          [-15.0, 0.25, -10.0],
+          [-5.0, 0.25, -2.0],
+          [5.0, 0.25, -6.0],
+          [15.0, 0.25, 0.0]
+        ],
+        "spacing": 1.5,
+        "facing": "along"
+      }
+    },
+    {
+      "id": "greeter",
+      "mesh": "meshes/fox_npc",
+      "layout": {
+        "kind": "point",
+        "translation": [3.0, 0.5, -3.0]
+      },
+      "components": [
+        { "type": "person" },
+        { "type": "name", "value": "John Doe" },
+        { "type": "health", "value": 10 }
+      ]
+    }
+  ]
+}

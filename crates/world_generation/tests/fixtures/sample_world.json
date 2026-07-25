@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "placements": [
+    {
+      "id": "works_barrel_01",
+      "mesh": "meshes/barrel",
+      "layout": {
+        "kind": "point",
+        "translation": [12.0, 0.0, -3.5],
+        "rotation": [0.0, 0.7071, 0.0, 0.7071],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      "components": [
+        { "type": "health", "value": 40 },
+        { "type": "texture", "value": "textures/barrel_tagged" },
+        { "type": "trigger", "on": "interact", "event": "jam_or_leave" }
+      ]
+    },
+    {
+      "id": "hospice_facade_bricks",
+      "mesh": "meshes/brick",
+      "layout": {
+        "kind": "line",
+        "from": [10.0, 0.0, 5.0],
+        "to": [40.0, 0.0, 5.0],
+        "count": 30,
+        "facing": "along"
+      },
+      "components": [
+        { "type": "texture", "value": "textures/brick_cobble" }
+      ]
+    },
+    {
+      "id": "outer_ring_wall",
+      "mesh": "meshes/wall_segment",
+      "layout": {
+        "kind": "circle",
+        "center": [0.0, 0.0, 0.0],
+        "radius": 10000.0,
+        "count": 720,
+        "start_angle_deg": -60.0,
+        "end_angle_deg": 60.0,
+        "facing": "outward"
+      },
+      "components": [
+        { "type": "texture", "value": "textures/ring_facade" }
+      ]
+    },
+    {
+      "id": "canal_road",
+      "mesh": "meshes/road_tile",
+      "layout": {
+        "kind": "spline",
+        "points": [
+          [0.0, 0.0, 0.0],
+          [10.0, 0.0, 5.0],
+          [25.0, 0.0, 8.0],
+          [40.0, 0.0, 4.0]
+        ],
+        "spacing": 2.0,
+        "facing": "along"
+      }
+    },
+    {
+      "id": "cousin_greeter",
+      "mesh": "meshes/fox_npc",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      },
+      "components": [
+        { "type": "person" },
+        { "type": "name", "value": "John Doe" }
+      ]
+    }
+  ]
+}

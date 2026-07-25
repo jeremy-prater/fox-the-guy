@@ -1,0 +1,29 @@
+[package]
+name = "world_viewer"
+version = "0.1.0"
+edition = "2024"
+description = "Pan/orbit camera viewer that loads and spawns a world placement JSON file"
+
+[[bin]]
+name = "world_viewer"
+path = "src/main.rs"
+
+[dependencies]
+bevy = { version = "0.19", features = ["dynamic_linking"] }
+bevy_panorbit_camera = "0.35"
+world_generation = { path = "../world_generation" }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+codegen-units = 1
+lto = "thin"
+
+[profile.wasm-release]
+inherits = "release"
+opt-level = "s"
+strip = "debuginfo"

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "placements": [
+    {
+      "id": "cibot_core",
+      "mesh": "meshes/cibot-core.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      }
+    },
+    {
+      "id": "cibot_ziggurat",
+      "mesh": "meshes/cibot-ziggurat.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 2500.0, 0.0]
+      }
+    },
+    {
+      "id": "inner_ring",
+      "mesh": "meshes/inner-ring.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      }
+    },
+    {
+      "id": "mid_ring",
+      "mesh": "meshes/mid-ring.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      }
+    },
+    {
+      "id": "outer_ring",
+      "mesh": "meshes/outer-ring.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      }
+    },
+    {
+      "id": "outshire",
+      "mesh": "meshes/outshire.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      }
+    },
+    {
+      "id": "hedgerow",
+      "mesh": "meshes/hedgerow.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      }
+    },
+    {
+      "id": "burrow",
+      "mesh": "meshes/burrow.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.0, 0.0]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "placements": [
+    {
+      "id": "box_a",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [0.0, 0.5, 0.0]
+      }
+    },
+    {
+      "id": "box_row",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "line",
+        "from": [-8.0, 0.5, 4.0],
+        "to": [8.0, 0.5, 4.0],
+        "count": 9,
+        "facing": "along"
+      }
+    },
+    {
+      "id": "box_ring",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "circle",
+        "center": [0.0, 0.5, 0.0],
+        "radius": 12.0,
+        "count": 24,
+        "facing": "outward"
+      }
+    }
+  ]
+}

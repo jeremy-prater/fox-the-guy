@@ -1,4 +1,9 @@
 [workspace]
 resolver = "2"
-members = ["crates/fox_generation", "crates/fox_the_guy"]
+members = [
+    "crates/fox_generation",
+    "crates/fox_the_guy",
+    "crates/world_generation",
+    "crates/world_viewer",
+]
 

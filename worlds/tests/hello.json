@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "placements": [
+    {
+      "id": "box-1",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [
+          0.0,
+          1.0,
+          -8.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "box-2",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "point",
+        "translation": [8.0, 1.0, 8.0],
+        "rotation": [0.0, 0.0, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      }
+    },
+    {
+      "id": "box-line",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "line",
+        "from": [-6.0, 1.0, 8.0],
+        "to": [6.0, 1.0, 8.0],
+        "count": 5,
+        "facing": "along"
+      }
+    },
+    {
+      "id": "box-circle",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "circle",
+        "center": [0.0, 1.0, -8.0],
+        "radius": 5.0,
+        "count": 12,
+        "facing": "outward"
+      }
+    },
+    {
+      "id": "box-spline",
+      "mesh": "meshes/box-circle.glb",
+      "layout": {
+        "kind": "spline",
+        "points": [
+          [-10.0, 1.0, -2.0],
+          [-4.0, 1.0, 2.0],
+          [4.0, 1.0, -1.0],
+          [10.0, 1.0, 3.0]
+        ],
+        "spacing": 2.0,
+        "facing": "along"
+      }
+    }
+  ]
+}
